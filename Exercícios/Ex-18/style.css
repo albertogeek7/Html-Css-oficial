@@ -1,0 +1,53 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Nunito:wght@200&display=swap');
+
+body
+{
+     background-image: linear-gradient( #78a8fa, #15dad0,#10ff6c9f,#4f8fffce );height: all;
+}
+h1{
+    color: #2B77FF;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+}
+
+h2 {color: #4c72b3;}
+main{ background-color: white;
+border: 10px;
+width: 550px;
+box-shadow: 3px 3px 4px #0257ac70;
+margin: auto;
+padding: 10px;
+border-radius: 10px;
+}
+p{
+text-align: justify;
+text-indent: 30px;
+}
+h2,p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    font-weight: 600;  
+}
+.primeiro{
+    background-color:#8CB7FF ;
+    color: rgb(0, 0, 0);
+}
+li :hover{
+    color: red  ;
+}
+div{
+    background-color: aqua; /* */
+    border: 2px solid black; /* calculo da porda */
+    display: inline-block;   /* usado para manter os elementos na mesma linha */
+    height: 50px;   /*Altura  */
+    width: 50px;   /*  Largura */
+    text-align: right ;  /*  Alinhamento de texto*/
+}
+div:hover{   /* hover = quando em mouse esta sobre o elemento*/
+    background-color: blue
+    ;
+    color: red; /* oque se segue após hover é o comando a ser executado quando o mouse estiver sobre o elemento*/
+}
+
+

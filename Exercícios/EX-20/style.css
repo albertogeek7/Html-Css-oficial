@@ -1,0 +1,77 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Nunito:wght@200&display=swap');
+
+body
+{
+     background-image: linear-gradient( #5b7aaf, #49a5a0,#43a1679f,#2f579bce );height: all;
+}
+h1{
+    color: #ffe1e1;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    border-radius: 10px;
+    background-color: #00F000;
+    
+   
+}
+h1>p{
+    display: none;
+}
+h1  :hover{
+    display:block;
+}
+h1:hover > p {
+    display: block;
+}
+h2 {color: #4c72b3;}
+main{ background-color: white;
+border: 10px;
+width: 550px;
+box-shadow: 3px 3px 4px #0257ac70;
+margin: auto;
+padding: 10px;
+border-radius: 10px;
+}
+p{
+text-align: justify;
+text-indent: 30px;
+}
+h2,p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    font-weight: 600;  
+}
+.primeiro{
+    background-color:#4c6899 ;
+    color: rgb(156, 83, 83);
+}
+li :hover{
+    color: rgba(83, 155, 160, 0.856)  ;
+}
+div{
+    background-color: rgb(71, 141, 141); /* */
+    border: 2px solid rgb(136, 73, 73); /* calculo da porda */
+    display: inline-block;   /* usado para manter os elementos na mesma linha */
+    height: 50px;   /*Altura  */
+    width: 50px;   /*  Largura */
+    text-align: center ;  /*  Alinhamento de texto*/
+    border-radius: 5px;
+}
+div:hover{   /* hover = quando em mouse esta sobre o elemento*/
+    background-color: rgb(72, 72, 138)
+    ;
+    color: rgb(18, 153, 177); /* oque se segue após hover é o comando a ser executado quando o mouse estiver sobre o elemento*/
+}
+li :hover{
+    background-color: #506a97;
+
+}
+#proximo{
+text-align: left;
+background-color: #527da0;
+color: rgb(67, 131, 139);
+}
+#proximo:hover{
+    background-color: rgb(150, 75, 75);
+}
+

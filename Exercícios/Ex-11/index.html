@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Img dinamic</title>
+</head>
+<body>
+   
+    <h1>Criando imagens dinamicas</h1>
+       <picture> 
+        <source media="(max-width:750px )" srcset="imagens/fotop.png" type="image/png">
+        <source media="(max-width: 1020px)" srcset="imagens/fotom.png" type="image/png">
+        <img src="imagens/fotog.png" alt="imagem flexivel">
+       </picture>
+       <br>
+       <h1>Inserindo um vídeo do youtube</h1>
+       <p><iframe width="500" height="300" src="https://www.youtube.com/embed/fH7wC3ex3Go" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+    <br>
+    <h1>inserindo um vídeo de hospedagem propria</h1>
+    <video controls autoplay loop width="500" height="300" src="midia/01.mp4"></video>
+    </body>
+
+
+</html>
