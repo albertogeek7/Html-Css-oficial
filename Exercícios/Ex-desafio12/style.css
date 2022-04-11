@@ -1,0 +1,16 @@
+@charset "UTF-8";   
+
+
+header{
+    background-color: black;
+    color: white;
+    height: 20vh;
+
+}
+body{
+    background-color:    lightgrey;
+}
+footer{
+    background-color: black;
+    color: white;
+}
