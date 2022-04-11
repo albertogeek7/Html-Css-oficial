@@ -1,16 +1,96 @@
-@charset "UTF-8";   
+@charset "UTF-8"; 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital@1&display=swap');
 
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
 
 header{
     background-color: black;
     color: white;
     height: 20vh;
+}
+header>p{
+    color: rgb(255, 255, 255);
+    text-decoration: none   ;
+    text-align: center;
+}
+
+h1{
+    margin: auto;
+    text-align: center;
+    padding-top: 27px;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+
+body{
+    background-color:    rgb(255, 255, 255);
+    font-family: 'Vollkorn', sans-serif;
+    line-height: 2em;
+    font-size: 3vh;
+    max-width: 900px;
+    margin: auto;
+    height: 100vh;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.texto{
+    background-color: rgb(255, 255, 255);
+    padding:30px 10px;
+}
+#final{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+
+
+
+#img01{
+    background-color: white;
+    padding:30px 10px;
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-repeat: no;
+    background-attachment: fixed;
 
 }
-body{
-    background-color:    lightgrey;
+#img02{
+   
+
+    background-color: white;
+    padding:30px 10px;
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-repeat: no; 
+    background-attachment: fixed;
+
 }
+
+#img01>p{
+    background-color: rgba(194, 192, 192, 0.616);
+    width: 200px;
+    border-radius: 15px rgb(90, 83, 83);
+}
+
+#img02>p{
+    display: block;
+    background-color: rgba(173, 182, 182, 0.568);
+    width: 200px;
+}
+
+
 footer{
     background-color: black;
     color: white;
+    text-align: center;
+    height: 17px;
+    font-size: 50%;
 }
