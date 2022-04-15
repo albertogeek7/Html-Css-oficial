@@ -13,11 +13,13 @@ header{
     background-color: black;
     color: white;
     height: 20vh;
+    border-radius: 15px;
 }
 header>p{
     color: rgb(255, 255, 255);
     text-decoration: none   ;
     text-align: center;
+  
 }
 
 h1{
@@ -39,6 +41,9 @@ body{
     height: 100vh;
     margin-bottom: 0px;
     padding-bottom: 0px;
+}
+section{
+    border-radius: 15px;
 }
 
 .texto{
